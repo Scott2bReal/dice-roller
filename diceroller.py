@@ -1,6 +1,7 @@
 import random
 from time import sleep
 
+# Number of dice
 while True:
     try:
         dice = int(input("number of dice to roll: "))
@@ -9,6 +10,7 @@ while True:
         print("please supply an integer")
         continue
 
+# Number of sides
 while True:
     try:
         sides = int(input("number of sides: "))
@@ -17,6 +19,7 @@ while True:
         print("please supply an integer")
         continue
 
+# Bonus
 while True:
     try:
         bonus = int(input("bonus: "))
@@ -27,6 +30,7 @@ while True:
 
 sleep(.5)
 
+# Calculate roll and print each individual for user
 i = 0
 total = 0
 while i < dice:
